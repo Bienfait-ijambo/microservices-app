@@ -1,0 +1,6 @@
+.idea/
+.vscode/
+/auth/node_modules/
+/post/node_modules/
+tmp/
+temp/
