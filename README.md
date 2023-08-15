@@ -27,16 +27,19 @@ we had setup an nginx-server in folder : `ngnix-config`; that we use ase reverse
 - http://localhost:3000/post/graphql: to access to post-service graphql-server 
 
 
-`query ExampleQuery {
+```graphql
+query ExampleQuery {
   books {
     title
   }
-}`
+}
+```
 
 you will see this 
 
 
-`{
+```graphql
+{
   "data": {
     "books": [
       {
@@ -47,9 +50,8 @@ you will see this
       }
     ]
   }
-}`
-
-
+}
+```
 
 - http://localhost:3000/auth/graphql: to access to auth-service graphql-server 
 
