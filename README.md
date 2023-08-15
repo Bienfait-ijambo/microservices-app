@@ -1,8 +1,7 @@
-## Awsome project build with /Graphql/Js/Express
+
+### Microservices-app : build with /Graphql/Js/Express
 
 [Note: you should be familiar with graphql,express and docker basic to run this project]
-
-### Microservices-app :
 
 If you want to learn how to set up a microservice-app using `Docker`, you're at the right place
 
