@@ -6,7 +6,7 @@ services:
       - "3000:80"
       
     volumes:
-      - ./ng-config/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./ngnix-config/default.conf:/etc/nginx/conf.d/default.conf:ro
 
     depends_on:
       - auth
